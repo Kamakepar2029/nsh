@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nark Shop</title>
+  <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">N-Shop</div>
+    </div>
+  </div>
+</header>
+<div class="intro">
+  <div class="container">
+    <div class="into__inner">
+     <h1 class="intro__title">N Shop Welcome</h1>
+    </div>
+    <a class="btn" href="#buy">Buy</a>
+  </div>
+</div>
+<div class="buy" id="buy" name="buy">
+  <h1 class="buy__title">
+    Buy Latest Products
+  </h1>
+  <div class="buy__inner">
+    <div class="buy__items">
+       <div class="buy__item">
+          <div class="buy__item__photo">
+            <img src="/dlr.jpg" class="lpol" style="width:250px;">
+          </div>
+          <div class="title__item">
+            Lpol - a very powerfull item!<br>
+            It has a very good smell and has no bad effects
+          </div>
+          <div class="cost">
+            Cost: 25$
+          </div>
+          <div class="buy__button">
+            <a class="buy__btn" href="#">Read and Buy it</a>
+          </div>
+       </div>
+    </div>
+    <div class="buy__item">
+          <div class="buy__item__photo">
+            <img src="/dlr.jpg" class="help" style="width:250px;">
+          </div>
+          <div class="title__item">
+           hElp - a less powerfull item!<br>
+           It has a very light begin and a more lighter end!
+          </div>
+          <div class="cost">
+            Cost: 5$
+          </div>
+          <div class="buy__button">
+            <a class="buy__btn" href="#">Read and Buy it</a>
+          </div>
+       </div>
+       <div class="buy__item" style="margin-bottom:10px;">
+          <div class="buy__item__photo">
+            <img src="/dlr.jpg" class="nlife" style="width:250px;">
+          </div>
+          <div class="buy__title__item">
+            Lpol - the optimal choice!
+            It is very fast and not so long.
+          </div>
+          <div class="cost">
+            Cost: 15$
+          </div>
+          <div class="buy__button">
+            <a class="buy__btn" href="#">Read and Buy it</a>
+          </div>
+       </div>
+  </div>
+</div>
+</body>
+<style>
+.buy__title__item{
+  margin-top:15px;
+}
+.lpol{
+  box-shadow: 0px 0px 18px 11px green;
+  border-radius:5px;
+}
+.nlife{
+  box-shadow: 0px 0px 18px 11px blue;
+  border-radius:5px;
+}
+.help{
+  box-shadow: 0px 0px 18px 11px red;
+  border-radius:5px;
+}
+.buy__item{
+  margin-top:150px;
+  text-align:center;
+
+}
+.buy__button{
+  margin-top:15px;
+  text-align:center;
+
+}
+  .buy__btn{
+    background:url('/cat.jpg');
+    border:3px solid white;
+    padding:10px;
+    color:white;
+    text-decoration:none;
+  }
+  .buy__btn:hover{
+    background:white;
+    color:black !important;
+  }
+  .buy{
+    width:100%;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:white !important;
+  }
+  .section__header{
+     text-align:center;
+     padding:80px 0;
+  }
+  .section__title{
+    font-weight:700;
+    font-size:30px;
+    color:#333;
+    text-transform:uppercase;
+  }
+  .section__text{
+    font-size:15px;
+    color:#999;
+  }
+  .section__title:after{
+    content:"";
+    display:block;
+    width:60px;
+    height:3px;
+    background-color:#f38181;
+    margin:30px auto;
+  }
+  .section{
+     width:100%;
+     max-width:950px;
+     margin:0 auto 40px;
+  }
+  .section__suptitle{
+    font-family: 'Kaushan Script', cursive;
+    font-size:24px;
+    color:#333;
+  }
+  .btn{
+    display:inline-block;
+    vertical-align:top;
+    border:3px solid white;
+    padding:8px 30px;
+    text-transform:uppercase;
+    font-size:14px;
+    color:white;
+    font-weight:700;
+    text-decoration:none;
+    transition:background .1s linear, color .1s linear;
+  }
+  .btn:hover{
+    background:white;
+    color:black;
+  }
+  .intro__inner{
+    width:100%;
+    max-width:880px;
+    margin:0 auto;
+    text-align:center !important;
+  }
+  .intro__title{
+    color:white;
+    font-size:150px;
+    font-weight:700;
+    text-transform:uppercase;
+    line-height:1;
+  }
+  .header__inner{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .nav__link{
+    display:inline-block;
+    vertical-align:top;
+    margin:0 10px;
+    position:relative;
+    color:white;
+    text-decoration:none;
+    transition:color .2s linear;
+  }
+  .nav__link:hover{
+    color:#078a70;
+  }
+  .nav{
+    font-szie:14px;
+    text-transform:uppercase;
+  }
+  .header__logo{
+    font-size:30px;
+    font-weight:700;
+    color:white;
+  }
+  .header{
+    padding-top:30px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+    z-index:1000;
+    margin-left:40px;
+    margin-right:40px;
+  }
+  h1,h2,h3.h4,h5{
+    margin:0px;
+  }
+  .intro{
+    text-align:center !important;
+    width:100%;
+    height:100vh;
+    background:url('/cat.jpg') center no-repeat;
+    -webkit-background-size:cover;
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+  body{
+    background:black;
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+    font-size:15px;
+    line-height:1.6;
+    color:#333;
+  }
+  *,
+  *:before,
+  *:after{
+    box-sizing:border-box;
+  }
+  .container{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+  }
+  @media screen and (max-width: 600px) {
+    .intro__title{
+    margin-top:50px;
+    color:white;
+    font-size:30px;
+    font-weight:500;
+    text-transform:uppercase;
+    line-height:1;
+  } 
+  .btn{
+    margin-top:20px;
+  }
+  .header__logo{
+    font-size:20px !important;
+  }
+  }
+  @media screen and (max-width: 992px) and (min-width: 601px){
+    .intro__title{
+    margin-top:50px;
+    color:white;
+    font-size:30px;
+    font-weight:500;
+    text-transform:uppercase;
+    line-height:1;
+  } 
+  .btn{
+    margin-top:20px;
+  }
+  .header__logo{
+    font-size:20px !important;
+  }
+  }
+</style>
+</html>
