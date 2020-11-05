@@ -1,0 +1,7 @@
+Disallow: /*?*
+Disallow: /*%
+Disallow: /index.php
+Disallow: /*?page=
+Disallow: /*&page=
+Disallow: *pur
+Disallow: /*pur
